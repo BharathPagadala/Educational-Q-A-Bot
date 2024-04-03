@@ -1,0 +1,19 @@
+{
+  "name": "educational-q-a-bot",
+  "version": "1.0.0",
+  "description": "Create a chatbot that assists students with learning by answering questions on various topics, explaining concepts, and providing additional resources. Users can ask questions in natural language, and ChatGPT can generate informative responses based on the input.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Bharath_Pagadala",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "openai": "^4.32.1",
+    "socketio": "^1.0.0"
+  }
+}
